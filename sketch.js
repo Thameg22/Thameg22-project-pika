@@ -1,8 +1,8 @@
 var pikachu, pikacharged,pikarunning;
 var thunder,thunderImg,thunderGroup, background1,score;
 function preload(){
-  pikarunning = loadAnimation("pikapics/pikapic1.png","pikapics/pikapic2.png",
-  "pikapics/pikapic3.png","pikapics/pikapic4.png")
+  pikarunning = loadAnimation("pikapic1.png","pikapic2.png",
+  "pikapic3.png","pikapic4.png")
   thunderImg = loadImage("thunder.png");
   background1 = loadImage("bg.png");
   pikacharged = loadImage("chargedpika.jpg")
